@@ -1,0 +1,134 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  /*  background-image: url("../html_advanced/images/background.jpg"); */
+}
+
+body, html {
+    background-color: #c0bae4;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  header a, nav ul a{
+    text-decoration: none;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  section{
+    border: 2px solid black;
+    
+  }
+  
+  section .first-child {
+   /* border: 2px solid black;*/
+    text-align: center;
+  }
+  
+  section .second-element {
+    /* border: 2px solid black;*/
+     text-align: center;
+  
+   }
+  
+   section .second-element .block-3{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+   }
+/* 
+   section .second-element .same-img {
+    ro
+   } */
+  
+   section .section-quote {
+    border: 2px solid black;
+  
+  }
+  section .second-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  
+  section .third-section {
+    border: 2px solid black;
+  }
+  
+  .third-section h1 {
+    text-align: center;
+  }
+  
+  .third-section .third-section-div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+    border: 2px solid black;
+  
+  }
+  
+  
+  .third-section-div .first-div {
+    display: block;
+  
+  }
+  .first-div .div-title {
+    display: flex;
+  
+  }
+  
+  
+  .section-fourth {
+    text-align: center;
+  }
+  
+  .section-fourth .div-block {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  footer {
+    text-align: center;
+  }
+  
+  .footer-div {
+    display: flex;
+    justify-content: space-between;
+  } 
+  
+  .footer-div ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+  }
