@@ -1,127 +1,164 @@
-body, html{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  /*  background-image: url("../html_advanced/images/background.jpg"); */
-}
-
-body, html {
-    background-color: #c0bae4;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
-  }
-  
-  header nav ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    text-decoration: none;
-    list-style-type: none;
-  }
-  
-  header a, nav ul a{
-    text-decoration: none;
-  }
-  
-  main {
-    display: block;
-  }
-  
-  section{
-    border: 2px solid black;
-    
-  }
-  
-  section .first-child {
-   /* border: 2px solid black;*/
-    text-align: center;
-  }
-  
-  section .second-element {
-    /* border: 2px solid black;*/
-     text-align: center;
-  
-   }
-  
-   section .second-element .block-3{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+header {
+    background-image: url('../html_advanced/images/Object.jpg');
    
-   }
-/* 
-   section .second-element .same-img {
-    ro
-   } */
-  
-   section .section-quote {
-    border: 2px solid black;
-  
   }
-  section .second-section {
+  
+  
+    header .header-cat {
+      display: flex;
+      justify-content: space-between;
+    }
+   
+    header div ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      text-decoration: none;
+      list-style-type: none;
+    }
+   
+  header .white-text{
+    color: #FFFFFF;
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-weight: lighter;
+  }
+    .header-main {
+      text-align: center;
+    }
+  
+    .header-main .header-first-block {
+      margin-top: 230px;
+    }
+  
+    .header-main .category-photos {
+      margin-top: 120px;
+    }
+  
+    .header-main .category-persons {
+      margin-top: 220px;
+    }
+  .category-persons{
     display: flex;
-    text-align: center;
     justify-content: center;
+    gap: 20px;
+  }
+  
+  .category-persons .circle-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  
+  main .purple-bg {
+     background: #C271FF;
+    ;
+  }
+  
+  
+  .weather-presenter .purple-bg {
+    text-align: center;
+    width: 1900px;
+    height: 392px;
+  }
+  
+  .weather-presenter section .purple-bg {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  
+  .video-section {
+    text-align: center;
+  }
+  
+  .video-section .blok-4 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .video-section .avatar {
+    display: flex;
     gap: 10px;
   }
-  
-  
-  section .third-section {
-    border: 2px solid black;
+   .circle-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
   }
   
-  .third-section h1 {
+  .video-section .rating {
+    display: flex;
+  }
+  
+  .video-section .rating ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .rating p {
+    margin-left: 10px;  
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  .smile-section {
     text-align: center;
-  }
-  
-  .third-section .third-section-div {
+    background: #071629;
+    width: 1900px;
+    height: 502px;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-  
-    border: 2px solid black;
-  
-  }
-  
-  
-  .third-section-div .first-div {
-    display: block;
-  
-  }
-  .first-div .div-title {
-    display: flex;
-  
-  }
-  
-  
-  .section-fourth {
-    text-align: center;
-  }
-  
-  .section-fourth .div-block {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  button {
+    position: relative;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   
   
+  .container-4bloks {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+  }
+  
+  
+  .smile-section button{
+    position: absolute;
+    bottom: 20px;                     /* Position button at the bottom with some spacing */
+    border-radius: 35%;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .outer-div {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: left;
+  }
+  
+  
   footer {
     text-align: center;
+    background: #071629;
+    height: 300px;
+    width: 1900px;
   }
   
   .footer-div {
     display: flex;
     justify-content: space-between;
-  } 
+  }
   
   .footer-div ul {
     display: flex;
