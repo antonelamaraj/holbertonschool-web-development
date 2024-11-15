@@ -1,12 +1,17 @@
 header {
-    background-image: url('../html_advanced/images/Object.jpg');
-   
+    background-image: url('../images/Header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  
   
     header .header-cat {
       display: flex;
       justify-content: space-between;
+    }
+
+    .header-cat > a {
+      margin-top: 40px;
+      margin-left: 100px;
     }
    
     header div ul {
@@ -15,27 +20,66 @@ header {
       gap: 20px;
       text-decoration: none;
       list-style-type: none;
+      margin-top: 40px;
+      padding-right: 100px;
     }
    
-  header .white-text{
+    .header-cat a{
+      text-transform: uppercase;
+      font-weight: bold;
+      text-decoration: none;
+      list-style-type: none;
+    }
+     header .white-text{
     color: #FFFFFF;
       font-family: "Lucida Console", "Courier New", monospace;
-      font-weight: lighter;
+      font-weight: bold;
   }
     .header-main {
       text-align: center;
     }
   
-    .header-main .header-first-block {
-      margin-top: 230px;
+    .header-main .header-first-block h1{
+      margin-top: 260px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #ffffff;
+      font-size: 60px;
+      padding-right: 280px;
     }
-  
+    .header-main .header-first-block p{
+      font-size: 30px;
+      padding: 16px;
+    }
+    .header-main .header-first-block > button{
+      width: 162px;
+      height: 44px;
+      background-color: #C271FF;
+      border-radius: 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+      border: 0;
+      display: block;
+      margin: 50px auto;
+    }
+
+    .header-main .category-photos h2 {
+      padding-left: 100px;
+      padding-top: 10px;
+    }
+    .header-main .category-photos span {
+      color: #C271FF;
+    }
     .header-main .category-photos {
       margin-top: 120px;
     }
   
     .header-main .category-persons {
       margin-top: 220px;
+    }
+
+    .header-main .category-photos p{
+      margin-top:  -15px;
     }
   .category-persons{
     display: flex;
@@ -58,25 +102,36 @@ header {
   
   .weather-presenter .purple-bg {
     text-align: center;
-    width: 1900px;
-    height: 392px;
+    /* height: 392px; */
   }
   
   .weather-presenter section .purple-bg {
     display: flex;
     justify-content: center;
-   
+    padding: 130px;
+    text-align: left;
+    height: 80px;
   }
   
+  .weather-presenter section  .purple-bg > div > p {
+    margin-left: 40px;
+  }
   
   .video-section {
     text-align: center;
   }
-  
+  .video-section h1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   .video-section .blok-4 {
     display: flex;
     justify-content: center;
     gap: 30px;
+  }
+
+  .video-section .blok-4 p {
+    margin-top: -15px;
   }
   
   .video-section .avatar {
@@ -93,15 +148,18 @@ header {
     display: flex;
   }
   
+  .video-section .rating p{margin-bottom: -10px;}
   .video-section .rating ul{
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 8px;
+    margin-top: -5px;
+    padding-left: 20px;
   }
   
   .rating p {
-    margin-left: 10px;  
+    margin-left: 55px;  
     font-size: 14px;
     color: #666;
   }
@@ -110,7 +168,6 @@ header {
   .smile-section {
     text-align: center;
     background: #071629;
-    width: 1900px;
     height: 502px;
     display: flex;
     position: relative;
@@ -126,18 +183,20 @@ header {
     gap: 70px;
   }
   
+  section .text-title {
+    margin-left: 50%;
+  }
   
   .smile-section button{
-    position: absolute;
-    bottom: 20px;                     /* Position button at the bottom with some spacing */
-    border-radius: 35%;
-    background: #C271FF;
     width: 162px;
     height: 44px;
-    color: #FFFFFF;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
+    background-color: #C271FF;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+    display: block;
+    margin: 50px auto;
   }
   
   .outer-div {
@@ -151,13 +210,20 @@ header {
   footer {
     text-align: center;
     background: #071629;
-    height: 300px;
-    width: 1900px;
+    height: 200px;
   }
   
   .footer-div {
     display: flex;
     justify-content: space-between;
+  }
+
+  .footer-div > :first-child {
+    padding-top: 60px;
+  }
+  .footer-div .social-profiles {
+    padding-top: 60px;
+    padding-right: 130px;
   }
   
   .footer-div ul {
