@@ -19,3 +19,6 @@ SmileSchool is a web-based platform designed to provide courses and tutorials fo
 [Web-Page] (file:///home/acer/Documents/holbertonschool-web-development/html_advanced/index.html#/).
 
 [Open Locally](file:///home/acer/Documents/holbertonschool-web-development/html_advanced/index.html)
+
+
+![IMAGE](./images/Header.jpg)
