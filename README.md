@@ -13,4 +13,7 @@ SmileSchool is a web-based platform designed to provide courses and tutorials fo
     > * HTML
     > * CSS
     > * GitHub
-    
+
+
+# This text links to my project
+[Web-Page] (file:///home/acer/Documents/holbertonschool-web-development/html_advanced/index.html#).
