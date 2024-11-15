@@ -18,7 +18,8 @@ SmileSchool is a web-based platform designed to provide courses and tutorials fo
 # This text links to my project
 [Web-Page] (file:///home/acer/Documents/holbertonschool-web-development/html_advanced/index.html#/).
 
-[Open Locally](file:///home/acer/Documents/holbertonschool-web-development/html_advanced/index.html)
-
-
 ![IMAGE](./images/Header.jpg)
+
+
+### Live Demo 
+You can view the live demo of the projecthere: [View Live Demo](https://www.figma.com/design/XrEAsu1vQj5fhVaNG38d2W/Homepage?node-id=3558-0&node-type=frame&t=h5bLw9pPzofdANCL-0/)
