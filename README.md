@@ -9,7 +9,7 @@ SmileSchool is a web-based platform designed to provide courses and tutorials fo
 - **Smiles Membership**: Offers a free membership with access to various resources.
 - **Frequently Asked Questions (FAQ)**: Provides information to users regarding the platform and how to get started.
 
-    > I have use in this project
+    > In this project is used: 
     > * HTML
     > * CSS
     > * GitHub
@@ -22,4 +22,4 @@ SmileSchool is a web-based platform designed to provide courses and tutorials fo
 
 
 ### Live Demo 
-You can view the live demo of the projecthere: [View Live Demo](https://www.figma.com/design/XrEAsu1vQj5fhVaNG38d2W/Homepage?node-id=3558-0&node-type=frame&t=h5bLw9pPzofdANCL-0/)
+You can view the live demo of the project here: [View Live Demo](https://www.figma.com/design/XrEAsu1vQj5fhVaNG38d2W/Homepage?node-id=3558-0&node-type=frame&t=h5bLw9pPzofdANCL-0/)
