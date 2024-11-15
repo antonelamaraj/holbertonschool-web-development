@@ -8,3 +8,9 @@ SmileSchool is a web-based platform designed to provide courses and tutorials fo
 - **User Profiles**: Each tutorial is associated with a tutor profile, providing bio information and a rating system.
 - **Smiles Membership**: Offers a free membership with access to various resources.
 - **Frequently Asked Questions (FAQ)**: Provides information to users regarding the platform and how to get started.
+
+    > I have use in this project
+    > * HTML
+    > * CSS
+    > * GitHub
+    
